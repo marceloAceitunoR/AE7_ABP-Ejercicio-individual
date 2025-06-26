@@ -1,0 +1,72 @@
+Microsoft Windows [Versión 10.0.19045.5965]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Home\Desktop\java0079\M2\dom>git init
+Initialized empty Git repository in C:/Users/Home/Desktop/java0079/M2/dom/.git/
+
+C:\Users\Home\Desktop\java0079\M2\dom>git status
+On branch master
+
+No commits yet  
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        img/
+        index.html
+        js/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Home\Desktop\java0079\M2\dom>git add .
+
+C:\Users\Home\Desktop\java0079\M2\dom>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   css/style.css
+        new file:   img/numero-1.png
+        new file:   img/numero-6.gif
+        new file:   img/tres.jpg
+        new file:   img/uno.jpg
+        new file:   index.html
+        new file:   js/scripts.js
+
+
+C:\Users\Home\Desktop\java0079\M2\dom>git commit -m "AE7_ABP-Ejercicio individual | 26-06-2025" 
+[master (root-commit) fc10d56] AE7_ABP-Ejercicio individual | 26-06-2025
+ 7 files changed, 72 insertions(+)
+ create mode 100644 css/style.css
+ create mode 100644 img/numero-1.png
+ create mode 100644 img/numero-6.gif
+ create mode 100644 img/tres.jpg
+ create mode 100644 img/uno.jpg
+ create mode 100644 index.html
+ create mode 100644 js/scripts.js
+
+C:\Users\Home\Desktop\java0079\M2\dom>git remote add origin https://github.com/marceloAceitunoR/AE7_ABP-Ejercicio-individual.git
+
+C:\Users\Home\Desktop\java0079\M2\dom>git branch -M main
+
+C:\Users\Home\Desktop\java0079\M2\dom>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 132.12 KiB | 22.02 MiB/s, done.
+Total 12 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/marceloAceitunoR/AE7_ABP-Ejercicio-individual.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Home\Desktop\java0079\M2\dom>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\Home\Desktop\java0079\M2\dom>
